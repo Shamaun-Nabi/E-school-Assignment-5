@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.img-fluid {
+  width: 180px;
+}
+
+.btn {
+  background-color: #21b573;
+  border: none;
+  border-radius: 33px;
+  font-weight: 200;
+  color: white;
+}
+.main {
+  background-color: #f0fff0;
+}
+.nav-link {
+  font-weight: 400;
+  color: rgb(15, 15, 15);
+}
+.nav-link:hover {
+  color: #21b573;
+}
+.showcaseIMG{
+    width: 554px;
+    height: 346px;
+}
+.showcaseTXT h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+#question{
+    color:#FF4A11;
+    ;
+}
+.showcaseTXT span{
+    color: #21b573;
+}
