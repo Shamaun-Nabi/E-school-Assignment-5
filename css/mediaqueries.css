@@ -4,22 +4,59 @@
         color: #c4305c;
     }
     .showcaseIMG{
-        width: 400px;
-        height: 306px;
+        width: 300px;
+        height: 200px;
     }
     .showcaseTXT h2{
         font-size: 30px;
         font-weight: 600;
     }
 
+    .category h6{
+        color:  #413960;
+        font-weight: 400;
+        font-size: 20px;
+      }
+      .category p{
+        font-size: 14px;
+      }
+
+       .box-cat{
+        height: 210px;
+        width: 210px;
+        margin: auto;
+      } 
+
+      /* .course-box{
+        margin: auto;
+        margin-top: 10px;
+    } */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+    .box-cat{
+        height: 210px;
+        width: 210px;
+      }
+
+      /* .course-box{
+          margin:auto;
+          margin-top: 10px;
+      } */
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+.box-cat{
+        height: 270px;
+        width: 270px;
+      } 
+      /* .course-box{
+          margin: 0px;
+          margin-top: 0px;
+    } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
